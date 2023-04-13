@@ -27,11 +27,6 @@ public class MultipleChoiceQusetionManager : MonoBehaviour
 
     public int numRequiredToPass;
 
-
-    private void Awake()
-    { 
-    }
-
     private void Start()
     {
         SetMenuOptionText();
@@ -160,7 +155,7 @@ public class MultipleChoiceQusetionManager : MonoBehaviour
 
         }
 
-        ResultsScreen.transform.Find("Results Text").GetComponent<TextMeshProUGUI>().text = correctionText;
+        ResultsScreen.transform.Find("Panel/Scroll Rect/Results Text").GetComponent<TextMeshProUGUI>().text = correctionText;
         if(numberOfCorrectOptions >= numRequiredToPass)
         {
             PlayerInformation.Instance.MultChoiceTestCompleted = true;
