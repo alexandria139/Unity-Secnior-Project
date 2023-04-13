@@ -35,6 +35,15 @@ public partial class @PlayerControlls : IInputActionCollection2, IDisposable
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Scroll"",
+                    ""type"": ""Value"",
+                    ""id"": ""92cf3f3a-6990-4455-ad19-7b30429db0a9"",
+                    ""expectedControlType"": ""Axis"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": true
                 }
             ],
             ""bindings"": [
@@ -48,6 +57,17 @@ public partial class @PlayerControlls : IInputActionCollection2, IDisposable
                     ""action"": ""Interact"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""6cf43404-ef82-44e8-a9d6-b67a9d5f79aa"",
+                    ""path"": ""<Mouse>/scroll/y"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Scroll"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
                 }
             ]
         }
@@ -57,6 +77,7 @@ public partial class @PlayerControlls : IInputActionCollection2, IDisposable
         // Default
         m_Default = asset.FindActionMap("Default", throwIfNotFound: true);
         m_Default_Interact = m_Default.FindAction("Interact", throwIfNotFound: true);
+        m_Default_Scroll = m_Default.FindAction("Scroll", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -117,11 +138,13 @@ public partial class @PlayerControlls : IInputActionCollection2, IDisposable
     private readonly InputActionMap m_Default;
     private IDefaultActions m_DefaultActionsCallbackInterface;
     private readonly InputAction m_Default_Interact;
+    private readonly InputAction m_Default_Scroll;
     public struct DefaultActions
     {
         private @PlayerControlls m_Wrapper;
         public DefaultActions(@PlayerControlls wrapper) { m_Wrapper = wrapper; }
         public InputAction @Interact => m_Wrapper.m_Default_Interact;
+        public InputAction @Scroll => m_Wrapper.m_Default_Scroll;
         public InputActionMap Get() { return m_Wrapper.m_Default; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -134,6 +157,9 @@ public partial class @PlayerControlls : IInputActionCollection2, IDisposable
                 @Interact.started -= m_Wrapper.m_DefaultActionsCallbackInterface.OnInteract;
                 @Interact.performed -= m_Wrapper.m_DefaultActionsCallbackInterface.OnInteract;
                 @Interact.canceled -= m_Wrapper.m_DefaultActionsCallbackInterface.OnInteract;
+                @Scroll.started -= m_Wrapper.m_DefaultActionsCallbackInterface.OnScroll;
+                @Scroll.performed -= m_Wrapper.m_DefaultActionsCallbackInterface.OnScroll;
+                @Scroll.canceled -= m_Wrapper.m_DefaultActionsCallbackInterface.OnScroll;
             }
             m_Wrapper.m_DefaultActionsCallbackInterface = instance;
             if (instance != null)
@@ -141,6 +167,9 @@ public partial class @PlayerControlls : IInputActionCollection2, IDisposable
                 @Interact.started += instance.OnInteract;
                 @Interact.performed += instance.OnInteract;
                 @Interact.canceled += instance.OnInteract;
+                @Scroll.started += instance.OnScroll;
+                @Scroll.performed += instance.OnScroll;
+                @Scroll.canceled += instance.OnScroll;
             }
         }
     }
@@ -148,5 +177,6 @@ public partial class @PlayerControlls : IInputActionCollection2, IDisposable
     public interface IDefaultActions
     {
         void OnInteract(InputAction.CallbackContext context);
+        void OnScroll(InputAction.CallbackContext context);
     }
 }

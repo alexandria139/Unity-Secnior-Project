@@ -23,6 +23,8 @@ public class CarPartTest : MonoBehaviour
 
     public GameObject WrongAnswerParent;
 
+    public GameObject MainPanel;
+
 
     private void Start()
     {
@@ -100,6 +102,7 @@ public class CarPartTest : MonoBehaviour
 
     private void DisplayTestResults()
     {
+        MainPanel.SetActive(false);
         TestResults.gameObject.SetActive(true);
         GameObject wrongAnswers = TestResults.transform.Find("Wrong Answers").gameObject;
         int currentIncorectAnswer = 0;

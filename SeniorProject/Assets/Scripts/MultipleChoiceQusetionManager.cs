@@ -134,19 +134,19 @@ public class MultipleChoiceQusetionManager : MonoBehaviour
         }
         ResultsScreen.gameObject.SetActive(true);
 
-        int numberOfCorrectOptions = 0;
+        var numberOfCorrectOptions = 0;
         foreach(var answer in Questions)
         {
             if (answer.GotQuestionCorrect) numberOfCorrectOptions++;
         }
 
-        string grade = numberOfCorrectOptions >= numRequiredToPass ? "Passed" : "Failed";
+        var grade = numberOfCorrectOptions >= numRequiredToPass ? "Passed" : "Failed";
         var titleText = ResultsScreen.transform.Find("Title").GetComponent<TextMeshProUGUI>();
         titleText.text = $"Results:\n{grade} {numberOfCorrectOptions}/{Questions.Count}";
 
-        string correctionText = "";
+        var correctionText = "";
 
-        for(int i = 0; i < Questions.Count; i++)
+        for(var i = 0; i < Questions.Count; i++)
         {
             if (!Questions[i].GotQuestionCorrect)
             {
@@ -155,7 +155,16 @@ public class MultipleChoiceQusetionManager : MonoBehaviour
 
         }
 
-        ResultsScreen.transform.Find("Panel/Scroll Rect/Results Text").GetComponent<TextMeshProUGUI>().text = correctionText;
+        if (numberOfCorrectOptions == 8)
+        {
+            ResultsScreen.transform.Find("Panel").gameObject.SetActive(false);
+        }
+
+        else
+        {
+            ResultsScreen.transform.Find("Panel/Scroll Rect/Results Text").GetComponent<TextMeshProUGUI>().text = correctionText;
+        }
+
         if(numberOfCorrectOptions >= numRequiredToPass)
         {
             PlayerInformation.Instance.MultChoiceTestCompleted = true;
