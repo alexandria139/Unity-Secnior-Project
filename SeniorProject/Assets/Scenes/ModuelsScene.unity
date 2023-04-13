@@ -940,6 +940,26 @@ PrefabInstance:
     m_TransformParent: {fileID: 2041966816}
     m_Modifications:
     - target: {fileID: 3779762139380724652, guid: cd71f33b07061f144828bb6315b13683, type: 3}
+      propertyPath: m_Transition
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3779762139380724652, guid: cd71f33b07061f144828bb6315b13683, type: 3}
+      propertyPath: m_Colors.m_PressedColor.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3779762139380724652, guid: cd71f33b07061f144828bb6315b13683, type: 3}
+      propertyPath: m_Colors.m_PressedColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3779762139380724652, guid: cd71f33b07061f144828bb6315b13683, type: 3}
+      propertyPath: m_Colors.m_PressedColor.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3779762139380724652, guid: cd71f33b07061f144828bb6315b13683, type: 3}
+      propertyPath: m_Colors.m_ColorMultiplier
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3779762139380724652, guid: cd71f33b07061f144828bb6315b13683, type: 3}
       propertyPath: m_Colors.m_DisabledColor.b
       value: 1
       objectReference: {fileID: 0}
@@ -949,6 +969,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3779762139380724652, guid: cd71f33b07061f144828bb6315b13683, type: 3}
       propertyPath: m_Colors.m_DisabledColor.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3779762139380724652, guid: cd71f33b07061f144828bb6315b13683, type: 3}
+      propertyPath: m_Colors.m_SelectedColor.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3779762139380724652, guid: cd71f33b07061f144828bb6315b13683, type: 3}
+      propertyPath: m_Colors.m_SelectedColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3779762139380724652, guid: cd71f33b07061f144828bb6315b13683, type: 3}
+      propertyPath: m_Colors.m_SelectedColor.r
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3779762139380724652, guid: cd71f33b07061f144828bb6315b13683, type: 3}
@@ -1049,7 +1081,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3779762139380724653, guid: cd71f33b07061f144828bb6315b13683, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -440
+      value: -435
       objectReference: {fileID: 0}
     - target: {fileID: 3779762139380724653, guid: cd71f33b07061f144828bb6315b13683, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
