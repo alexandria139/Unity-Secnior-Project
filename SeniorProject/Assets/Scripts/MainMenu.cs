@@ -55,12 +55,12 @@ public class MainMenu : MonoBehaviour
             PlayerInformation.Instance.PlayerReadCheckBrakePads && PlayerInformation.Instance.PlayerReadCheckBattery && 
             PlayerInformation.Instance.PlayerReadCheckOilPressure && PlayerInformation.Instance.PlayerReadCheckTirePressure)
         {
-            QuizMenuButton.enabled = true;
+            QuizMenuButton.interactable = true;
         }
 
         else
         {
-            QuizMenuButton.enabled = false;
+            QuizMenuButton.interactable = false;
         }
 
         // If all done
