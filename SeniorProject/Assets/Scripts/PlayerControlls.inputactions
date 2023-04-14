@@ -15,13 +15,13 @@
                     "initialStateCheck": false
                 },
                 {
-                    "name": "Scroll",
-                    "type": "Value",
-                    "id": "92cf3f3a-6990-4455-ad19-7b30429db0a9",
-                    "expectedControlType": "Axis",
+                    "name": "Pause",
+                    "type": "Button",
+                    "id": "f6243e21-699f-4ded-8a73-5886ae5b7c54",
+                    "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
-                    "initialStateCheck": true
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -38,12 +38,12 @@
                 },
                 {
                     "name": "",
-                    "id": "6cf43404-ef82-44e8-a9d6-b67a9d5f79aa",
-                    "path": "<Mouse>/scroll/y",
+                    "id": "d23d9ac5-1adc-4c15-a027-61f64c5b5530",
+                    "path": "<Keyboard>/escape",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Scroll",
+                    "action": "Pause",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
