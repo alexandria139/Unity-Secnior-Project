@@ -657,8 +657,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -347.43628, y: -113.901}
-  m_SizeDelta: {x: 1225.126, y: 851.80896}
+  m_AnchoredPosition: {x: -334.84, y: -104.048}
+  m_SizeDelta: {x: 1199.9, y: 828.782}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &268932479
 MonoBehaviour:
@@ -673,7 +673,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.4716981, g: 0.4716981, b: 0.4716981, a: 0}
+  m_Color: {r: 0.4716981, g: 0.4716981, b: 0.4716981, a: 0.28235295}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1329,7 +1329,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 851051759}
-  m_LocalRotation: {x: 0.061834574, y: 0.8339752, z: -0.095507026, w: 0.5399447}
+  m_LocalRotation: {x: 0.061834585, y: 0.8339752, z: -0.095507, w: 0.53994477}
   m_LocalPosition: {x: -2.8656402, y: 1.8, z: 2.9040036}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -1857,7 +1857,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -347.43628, y: -113.901}
+  m_AnchoredPosition: {x: -290, y: -113.901}
   m_SizeDelta: {x: 1225.126, y: 851.80896}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1266072376
@@ -2157,7 +2157,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1439567119}
-  m_LocalRotation: {x: 0.061834574, y: 0.8339752, z: -0.095507026, w: 0.5399447}
+  m_LocalRotation: {x: 0.061834585, y: 0.8339752, z: -0.095507, w: 0.53994477}
   m_LocalPosition: {x: -2.8656402, y: 1.8, z: 2.9040036}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -3460,10 +3460,10 @@ RectTransform:
   m_Father: {fileID: 268932478}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 7.6715, y: 9.8498}
-  m_SizeDelta: {x: 1209.8, y: 832.1}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 7.671509, y: 9.8497925}
+  m_SizeDelta: {x: -16.199951, y: -19.900024}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2116304317
 MonoBehaviour:
@@ -3485,7 +3485,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: INSERT CREDITS HERE
+  m_text: '"The Lounge" by Bensound | https://www.bensound.com
+
+
+    "Family Friendly
+    Inspect Sound, UI, or In-Game Notification" By MATRIXXX_ | https://freesound.org/people/MATRIXXX_/sounds/657948/'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -3512,8 +3516,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 61.2
+  m_fontSizeBase: 61.2
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18

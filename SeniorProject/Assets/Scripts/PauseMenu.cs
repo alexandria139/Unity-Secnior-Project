@@ -21,12 +21,7 @@ public class PauseMenu : MonoBehaviour
     {
        OpenClosePauseMenu();
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    
 
     private void OnDestroy()
     {
@@ -40,6 +35,18 @@ public class PauseMenu : MonoBehaviour
     public void OpenClosePauseMenu()
     {
         PauseMenuCanvas.SetActive(!PauseMenuCanvas.activeInHierarchy);
+
+        if (PauseMenuCanvas.activeInHierarchy)
+        {
+            Cursor.visible = true;
+            Cursor.lockState = CursorLockMode.Confined;
+        }
+
+        else
+        {
+            Cursor.visible = false;
+            Cursor.lockState = CursorLockMode.Locked;
+        }
     }
 
     public void QuitGame()
