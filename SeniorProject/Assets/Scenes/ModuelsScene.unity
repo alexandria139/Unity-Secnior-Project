@@ -404,6 +404,14 @@ PrefabInstance:
         to either a part store or a mechanic and have the battery tested and or replaced.
       objectReference: {fileID: 0}
     - target: {fileID: 7498227159156053699, guid: 1b65592d5a0b867438acca164712dee0, type: 3}
+      propertyPath: m_Type
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7498227159156053699, guid: 1b65592d5a0b867438acca164712dee0, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 5c60666e4d606e94f9b7067955d4c3fa, type: 3}
+    - target: {fileID: 7498227159156053699, guid: 1b65592d5a0b867438acca164712dee0, type: 3}
       propertyPath: m_Color.a
       value: 1
       objectReference: {fileID: 0}
@@ -1950,6 +1958,14 @@ PrefabInstance:
         within the scheduled maintenance times.  '
       objectReference: {fileID: 0}
     - target: {fileID: 7498227159156053699, guid: 1b65592d5a0b867438acca164712dee0, type: 3}
+      propertyPath: m_Type
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7498227159156053699, guid: 1b65592d5a0b867438acca164712dee0, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 5c60666e4d606e94f9b7067955d4c3fa, type: 3}
+    - target: {fileID: 7498227159156053699, guid: 1b65592d5a0b867438acca164712dee0, type: 3}
       propertyPath: m_Color.a
       value: 1
       objectReference: {fileID: 0}
@@ -3090,6 +3106,14 @@ PrefabInstance:
         your vehicle in as soon as possible to check the sensor and the pads themselves. '
       objectReference: {fileID: 0}
     - target: {fileID: 7498227159156053699, guid: 1b65592d5a0b867438acca164712dee0, type: 3}
+      propertyPath: m_Type
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7498227159156053699, guid: 1b65592d5a0b867438acca164712dee0, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 5c60666e4d606e94f9b7067955d4c3fa, type: 3}
+    - target: {fileID: 7498227159156053699, guid: 1b65592d5a0b867438acca164712dee0, type: 3}
       propertyPath: m_Color.a
       value: 1
       objectReference: {fileID: 0}
@@ -4054,6 +4078,14 @@ PrefabInstance:
         The tire pressure should match the chart on the inner driver''s side door. '
       objectReference: {fileID: 0}
     - target: {fileID: 7498227159156053699, guid: 1b65592d5a0b867438acca164712dee0, type: 3}
+      propertyPath: m_Type
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7498227159156053699, guid: 1b65592d5a0b867438acca164712dee0, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 5c60666e4d606e94f9b7067955d4c3fa, type: 3}
+    - target: {fileID: 7498227159156053699, guid: 1b65592d5a0b867438acca164712dee0, type: 3}
       propertyPath: m_Color.a
       value: 1
       objectReference: {fileID: 0}
@@ -4786,6 +4818,14 @@ PrefabInstance:
         you to a mechanic.
       objectReference: {fileID: 0}
     - target: {fileID: 7498227159156053699, guid: 1b65592d5a0b867438acca164712dee0, type: 3}
+      propertyPath: m_Type
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7498227159156053699, guid: 1b65592d5a0b867438acca164712dee0, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 5c60666e4d606e94f9b7067955d4c3fa, type: 3}
+    - target: {fileID: 7498227159156053699, guid: 1b65592d5a0b867438acca164712dee0, type: 3}
       propertyPath: m_Color.a
       value: 1
       objectReference: {fileID: 0}
@@ -4914,6 +4954,14 @@ PrefabInstance:
     - target: {fileID: 335146058886960927, guid: c84f2abafe7b79240b7b2cfdaca132c9, type: 3}
       propertyPath: m_AnchorMin.y
       value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 335146058886960927, guid: c84f2abafe7b79240b7b2cfdaca132c9, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 400
+      objectReference: {fileID: 0}
+    - target: {fileID: 335146058886960927, guid: c84f2abafe7b79240b7b2cfdaca132c9, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 400
       objectReference: {fileID: 0}
     - target: {fileID: 335146058886960927, guid: c84f2abafe7b79240b7b2cfdaca132c9, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5226,6 +5274,14 @@ PrefabInstance:
 
 '
       objectReference: {fileID: 0}
+    - target: {fileID: 7498227159156053699, guid: 1b65592d5a0b867438acca164712dee0, type: 3}
+      propertyPath: m_Type
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7498227159156053699, guid: 1b65592d5a0b867438acca164712dee0, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 5c60666e4d606e94f9b7067955d4c3fa, type: 3}
     - target: {fileID: 7498227159156053699, guid: 1b65592d5a0b867438acca164712dee0, type: 3}
       propertyPath: m_Color.a
       value: 1

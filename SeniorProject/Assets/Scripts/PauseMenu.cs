@@ -30,7 +30,11 @@ public class PauseMenu : MonoBehaviour
 
     private void OnDestroy()
     {
-        _playerControlls.Default.Pause.performed -= OpenClosePauseMenu;
+        if(_playerControlls != null)
+        {
+            _playerControlls.Default.Pause.performed -= OpenClosePauseMenu;
+        }
+
     }
 
     public void OpenClosePauseMenu()
