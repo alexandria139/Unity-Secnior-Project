@@ -1433,7 +1433,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8812735663787190851, guid: 992905c32c001e648ab927a9b17c1300, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 29
+      value: 46
       objectReference: {fileID: 0}
     - target: {fileID: 8812735663787190851, guid: 992905c32c001e648ab927a9b17c1300, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1505,25 +1505,26 @@ MonoBehaviour:
   Questions:
   - CorrectPart: {fileID: 3336338056613829550}
     Question: Select the part of the car that pertains to the TPMS light?
-    CarPartImage: {fileID: 0}
+    CarPartImage: {fileID: 21300000, guid: 52edee8f0feeadf4d90b1621da0be7c1, type: 3}
   - CorrectPart: {fileID: 1382039514}
     Question: Select the part of the car that pertains to the Battery light?
-    CarPartImage: {fileID: 0}
+    CarPartImage: {fileID: 21300000, guid: 9e052475550d25d40b9ffc50d16fe741, type: 3}
   - CorrectPart: {fileID: 1452921865}
     Question: Select the part of the car that pertains to the ABS light?
-    CarPartImage: {fileID: 0}
+    CarPartImage: {fileID: 21300000, guid: 183046737030d73489ffba0e03772e99, type: 3}
   - CorrectPart: {fileID: 2019796524}
     Question: Select the part of the car that pertains to Oil Pressure light?
-    CarPartImage: {fileID: 0}
+    CarPartImage: {fileID: 21300000, guid: d5cd1973ac8973a4ab8da103d9d78670, type: 3}
   - CorrectPart: {fileID: 619186337}
     Question: Select the part of the car that pertains to the Brake Pad light?
-    CarPartImage: {fileID: 0}
+    CarPartImage: {fileID: 21300000, guid: 637f4266d0214df43852d26a72519f1e, type: 3}
   Answers: 
   QuestionText: {fileID: 2144240138}
   QuestionResult: {fileID: 1754180531}
   TestResults: {fileID: 661927981}
   WrongAnswerParent: {fileID: 307194849}
   MainPanel: {fileID: 881029846}
+  ResultsTitle: {fileID: 1042540362}
 --- !u!4 &796032857
 Transform:
   m_ObjectHideFlags: 0
@@ -1941,7 +1942,7 @@ GameObject:
   - component: {fileID: 1042540363}
   - component: {fileID: 1042540362}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: Title
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1987,7 +1988,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Car Test Wrong Answers
+  m_text: Incorrect Answers
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1997,7 +1998,7 @@ MonoBehaviour:
   m_fontColor32:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColor: {r: 0.122641504, g: 0.11280704, b: 0.11280704, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -3158,8 +3159,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4279769112
+  m_fontColor: {r: 0.09433961, g: 0.09433961, b: 0.09433961, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -3368,6 +3369,10 @@ PrefabInstance:
     - target: {fileID: 3779762139380724690, guid: cd71f33b07061f144828bb6315b13683, type: 3}
       propertyPath: m_Name
       value: Finsih Button
+      objectReference: {fileID: 0}
+    - target: {fileID: 3779762139380724690, guid: cd71f33b07061f144828bb6315b13683, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3779762140238081801, guid: cd71f33b07061f144828bb6315b13683, type: 3}
       propertyPath: m_text

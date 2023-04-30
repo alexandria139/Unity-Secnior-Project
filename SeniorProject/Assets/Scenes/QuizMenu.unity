@@ -453,7 +453,7 @@ MonoBehaviour:
   CurrentQuesition: 0
   QuestionExplanation: {fileID: 58575198}
   ResultsScreen: {fileID: 603849688}
-  numRequiredToPass: 1
+  numRequiredToPass: 7
 --- !u!1001 &237714243
 PrefabInstance:
   m_ObjectHideFlags: 0

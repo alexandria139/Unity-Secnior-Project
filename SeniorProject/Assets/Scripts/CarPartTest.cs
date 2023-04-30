@@ -25,6 +25,8 @@ public class CarPartTest : MonoBehaviour
 
     public GameObject MainPanel;
 
+    public TextMeshProUGUI ResultsTitle;
+
 
     private void Start()
     {
@@ -69,7 +71,7 @@ public class CarPartTest : MonoBehaviour
 
         else
         {
-            QuestionResult.text = "Wrong";
+            QuestionResult.text = "Incorrect";
         }
 
 
@@ -129,6 +131,7 @@ public class CarPartTest : MonoBehaviour
 
         if(currentIncorectAnswer == 0)
         {
+            ResultsTitle.text = "Passed: 5/5";
             PlayerInformation.Instance.CarPartTestCompleted = true;
         }
 

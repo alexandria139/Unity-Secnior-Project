@@ -357,6 +357,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2983746056774131439, guid: 1b65592d5a0b867438acca164712dee0, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 9e052475550d25d40b9ffc50d16fe741, type: 3}
     - target: {fileID: 3830757278019233938, guid: 1b65592d5a0b867438acca164712dee0, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.25382334
@@ -607,6 +611,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2041966816}
     m_Modifications:
+    - target: {fileID: 335146058747055774, guid: c84f2abafe7b79240b7b2cfdaca132c9, type: 3}
+      propertyPath: m_text
+      value: Oil Pressure Light
+      objectReference: {fileID: 0}
     - target: {fileID: 335146058886960924, guid: c84f2abafe7b79240b7b2cfdaca132c9, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
       value: 3
@@ -1247,6 +1255,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2041966816}
     m_Modifications:
+    - target: {fileID: 335146058747055774, guid: c84f2abafe7b79240b7b2cfdaca132c9, type: 3}
+      propertyPath: m_text
+      value: 'Tire Pressure Monitoring System (TPMS) Light '
+      objectReference: {fileID: 0}
     - target: {fileID: 335146058886960924, guid: c84f2abafe7b79240b7b2cfdaca132c9, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
       value: 3
@@ -1577,6 +1589,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2041966816}
     m_Modifications:
+    - target: {fileID: 335146058747055774, guid: c84f2abafe7b79240b7b2cfdaca132c9, type: 3}
+      propertyPath: m_text
+      value: Analog Brake System (ABS) Light
+      objectReference: {fileID: 0}
     - target: {fileID: 335146058886960924, guid: c84f2abafe7b79240b7b2cfdaca132c9, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
       value: 3
@@ -1938,6 +1954,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2983746056774131439, guid: 1b65592d5a0b867438acca164712dee0, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: d5cd1973ac8973a4ab8da103d9d78670, type: 3}
     - target: {fileID: 6368398164783393605, guid: 1b65592d5a0b867438acca164712dee0, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -3083,10 +3103,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2983746056774131439, guid: 1b65592d5a0b867438acca164712dee0, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 637f4266d0214df43852d26a72519f1e, type: 3}
     - target: {fileID: 6165652139077022579, guid: 1b65592d5a0b867438acca164712dee0, type: 3}
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: 8b1d129a8d89e864ab2f6daff5f3c821, type: 3}
+    - target: {fileID: 6368398164783393605, guid: 1b65592d5a0b867438acca164712dee0, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 7410203345963174386c514892b5340b, type: 3}
     - target: {fileID: 6577417865522404489, guid: 1b65592d5a0b867438acca164712dee0, type: 3}
       propertyPath: m_IsActive
       value: 1
@@ -3583,6 +3611,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2041966816}
     m_Modifications:
+    - target: {fileID: 335146058747055774, guid: c84f2abafe7b79240b7b2cfdaca132c9, type: 3}
+      propertyPath: m_text
+      value: Brake Pad Warning Light
+      objectReference: {fileID: 0}
     - target: {fileID: 335146058886960924, guid: c84f2abafe7b79240b7b2cfdaca132c9, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
       value: 3
@@ -3977,6 +4009,10 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: 527f73a0f6c41f0438c740ecbc38dd46, type: 3}
+    - target: {fileID: 2573240137685370959, guid: 1b65592d5a0b867438acca164712dee0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2586295335231393805, guid: 1b65592d5a0b867438acca164712dee0, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -4060,6 +4096,14 @@ PrefabInstance:
     - target: {fileID: 2586295335231393805, guid: 1b65592d5a0b867438acca164712dee0, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2983746056774131439, guid: 1b65592d5a0b867438acca164712dee0, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 52edee8f0feeadf4d90b1621da0be7c1, type: 3}
+    - target: {fileID: 5477839262945169629, guid: 1b65592d5a0b867438acca164712dee0, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 145
       objectReference: {fileID: 0}
     - target: {fileID: 7079535474603812770, guid: 1b65592d5a0b867438acca164712dee0, type: 3}
       propertyPath: m_Name
@@ -4211,6 +4255,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2041966816}
     m_Modifications:
+    - target: {fileID: 335146058747055774, guid: c84f2abafe7b79240b7b2cfdaca132c9, type: 3}
+      propertyPath: m_text
+      value: Battery Light
+      objectReference: {fileID: 0}
     - target: {fileID: 335146058886960924, guid: c84f2abafe7b79240b7b2cfdaca132c9, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
       value: 3
@@ -4796,6 +4844,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2983746056774131439, guid: 1b65592d5a0b867438acca164712dee0, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 183046737030d73489ffba0e03772e99, type: 3}
+    - target: {fileID: 3830757278019233938, guid: 1b65592d5a0b867438acca164712dee0, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3830757278019233938, guid: 1b65592d5a0b867438acca164712dee0, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 155.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 3830757278019233938, guid: 1b65592d5a0b867438acca164712dee0, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 84.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6368398164783393605, guid: 1b65592d5a0b867438acca164712dee0, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 7410203345963174386c514892b5340b, type: 3}
     - target: {fileID: 6577417865522404489, guid: 1b65592d5a0b867438acca164712dee0, type: 3}
       propertyPath: m_IsActive
       value: 1
@@ -4845,6 +4913,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8942493667251721194, guid: 1b65592d5a0b867438acca164712dee0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1b65592d5a0b867438acca164712dee0, type: 3}
 --- !u!224 &2146690009 stripped
@@ -4859,6 +4931,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2041966816}
     m_Modifications:
+    - target: {fileID: 335146058747055774, guid: c84f2abafe7b79240b7b2cfdaca132c9, type: 3}
+      propertyPath: m_text
+      value: Check Engine Light
+      objectReference: {fileID: 0}
     - target: {fileID: 335146058886960924, guid: c84f2abafe7b79240b7b2cfdaca132c9, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
       value: 3
@@ -5054,6 +5130,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 877833697}
     m_Modifications:
+    - target: {fileID: 288045581274587764, guid: 1b65592d5a0b867438acca164712dee0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 817417047648449331, guid: 1b65592d5a0b867438acca164712dee0, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
       value: 2
@@ -5090,6 +5170,14 @@ PrefabInstance:
         can be exceedingly dangerous due to the fact if a part is not functioning
         properly, it may damage parts near and connected to the originally affected
         part.
+      objectReference: {fileID: 0}
+    - target: {fileID: 1546487344153591941, guid: 1b65592d5a0b867438acca164712dee0, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -78
+      objectReference: {fileID: 0}
+    - target: {fileID: 1546487344153591941, guid: 1b65592d5a0b867438acca164712dee0, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 239
       objectReference: {fileID: 0}
     - target: {fileID: 1612976420901385569, guid: 1b65592d5a0b867438acca164712dee0, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -5243,6 +5331,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2983746056774131439, guid: 1b65592d5a0b867438acca164712dee0, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: d5cd1973ac8973a4ab8da103d9d78670, type: 3}
     - target: {fileID: 6165652139077022579, guid: 1b65592d5a0b867438acca164712dee0, type: 3}
       propertyPath: m_Sprite
       value: 
